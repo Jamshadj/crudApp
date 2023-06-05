@@ -37,7 +37,7 @@ const handleDelete=(id)=>{
                 <th >Email</th>
                 <th style={{textAlign:'center',width:'150px'}}>Actions</th>
                 <th style={{ width:'150px' }}> </th>
-              </tr>
+              </tr>  
             </thead>
             <tbody>
                 {
