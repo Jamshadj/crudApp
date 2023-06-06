@@ -23,7 +23,7 @@ function App() {
      axios.get('/checkAuth').then((response)=>{
       console.log(response);
       dispatch({type:'user',payload:{login: response.data.logged,details:response.data.details}});
-     })
+     })   
      axios.get('/admin/adminAuth').then((response)=>{
       console.log(response);
       dispatch({type:'admin',payload:{adminLog:response.data.logged,details:response.data.details}})
